@@ -1,0 +1,6 @@
+with open('add values in list.py','r') as got:
+    print('type of got',type(got))
+
+print('is file a closed =',got.closed)# out of indentation block
+    #a.close()
+    #print('is file a closed =',a.closed)

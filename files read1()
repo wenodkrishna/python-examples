@@ -1,0 +1,13 @@
+
+filename=input('enter file name=')
+with open(filename) as wr:
+    print('='*50)
+    print('intial potion of file pointer wr =',wr.tell())
+    print('='*50)
+    we=wr.read()
+    print(we)
+    print('potion of file pointer wr =',wr.tell())
+
+
+
+

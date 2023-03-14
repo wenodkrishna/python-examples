@@ -1,0 +1,6 @@
+a=open('add values in list.py','r')
+print('type of a',type(a))
+
+print('is file a closed =',a.closed)
+a.close()
+print('is file a closed =',a.closed)

@@ -1,0 +1,11 @@
+a='transformers'
+b=0
+while(b<len(a)):
+    print('',a[b])
+    b=b+1
+print('========================')
+c='gravity'
+d=len(c)-1
+while(d>=0):
+    print('',c[d])
+    d=d-1

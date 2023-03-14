@@ -1,0 +1,11 @@
+l1=[11,12,13,14,15,16,17,18,19,20]
+l2=[f**2 for f in l1]
+l3=[m**0.5 for m in l2]
+print(l1)
+print(l2)
+print(l3)
+
+
+
+
+

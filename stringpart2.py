@@ -1,0 +1,9 @@
+j='game of thrones house of the dragon'
+print('j=',j)
+print('j.split()=',j.split())
+print('j.upper()=',j.upper())
+print('isalpha()=',j.isalpha())
+print('isdigit()=',j.isdigit())
+print('isalnum()=',j.isalnum())
+print('j.title()=',j.title())
+print('j.capitalize()=',j.capitalize())

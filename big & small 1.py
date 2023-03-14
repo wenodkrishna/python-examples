@@ -1,0 +1,5 @@
+a,b=float(input('enter value of a=')),float(input('enter value of b='))
+print('================================')
+print('big value=({},{})={}'.format(a,b,a if a>b else b))
+print('small value=({},{})={}'.format(a,b,a if a<b else b))
+print('================================')

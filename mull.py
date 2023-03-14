@@ -1,0 +1,5 @@
+print('enter two values:')
+a=float( input('1st value:') )*float( input('2nd value:') )
+print('------------------')
+print('mul=',a)
+print('------------------')

@@ -1,0 +1,8 @@
+import pickle
+fname=input('enter file name =')
+with open(fname,'ab') as tv:
+    l1=list()
+    l1.append(input('enter name='))
+    l1.append(int(input('enter mobile number=')))
+    l1.append(input('enter address='))
+    pickle.dump(l1,tv)

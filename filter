@@ -1,0 +1,17 @@
+import functools
+l1=[int(a) for a in input('enter values with camma=').split(',')]
+print('l1',l1)
+print('=========================================================')
+filpv=list(filter(lambda x:x>0,l1))
+print('positive values=',filpv)
+negva=list(filter(lambda x:x<0,l1))
+print('negative values =',negva)
+print('=========================================================')
+pvsum=functools.reduce(lambda x,y:x+y,filpv)
+print('positive values sum=',pvsum)
+nvsum=functools.reduce(lambda x,y:x+y,negva)
+print('negative values sum=',nvsum)
+print('=========================================================')
+
+
+

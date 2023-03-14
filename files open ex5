@@ -1,0 +1,9 @@
+#                                 'w' mode
+with open('wennood','w') as got:
+    print('='*50)
+    print('file opened in write mode')
+    print('name of the file=',got.name)
+    print('file opening mode=',got.mode)
+    print('is file writable=',got.writable())
+    print('is file readable=',got.readable())
+    print('='*50)

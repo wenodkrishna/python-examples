@@ -1,0 +1,17 @@
+#                        ALL VALUES ARE  LOADED at once by using for loop
+import pickle
+ffnam=input('enter file name=')
+print('='*50)
+try:
+    with open(ffnam,'rb') as df:
+        while(True):
+            ds=pickle.load(df)
+            for g in ds:
+                print(g,end=' ')
+            print()
+        print('='*50)
+    
+except EOFError:
+    
+    print('fie print ended')
+

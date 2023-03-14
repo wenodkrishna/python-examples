@@ -1,0 +1,20 @@
+def tables():
+    print('======================================')
+    b=int(input('enter which table you want='))
+    print('======================================')
+    print(f'{b} table')
+    print('======================================')
+    for a in range(1,11):
+        print(f'{b}X{a}={b*a}')
+    print('======================================')
+def rectperi():
+    print('======================================')
+    l=int(input('ente length of rectangle (l)='))
+    b = int(input('ente breadth of rectangle (b)='))
+    print('======================================')
+    perimeter=2*(l+b)
+    print('======================================')
+    print(f'perimeter of rectangle ={perimeter}')
+    print('======================================')
+tables()
+rectperi()

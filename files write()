@@ -1,0 +1,24 @@
+'''with open('write','a') as wr:
+    wr.write('vinod krishna')
+    wr.write('k r palli')
+    wr.write('s n puram')
+    wr.write('andhra pradesh')
+    wr.write('517002')
+    print('data added succesfully')'''
+
+
+with open('xwrite','a') as wr:
+    wr.write('vinod krishna\n')
+    wr.write('k r palli\n')
+    wr.write('s n puram\n')
+    wr.write('andhra pradesh\n')
+    wr.write('517002\n')
+    print('data added succesfully\n')
+
+
+
+
+
+
+
+

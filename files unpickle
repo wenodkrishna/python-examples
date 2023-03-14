@@ -1,0 +1,12 @@
+#                        ONLY ONE VALUE IS LOADED
+import pickle
+ffnam=input('enter file name=')
+with open(ffnam,'rb') as df:
+    while(True):
+        ds=pickle.load(df)
+        print(ds)
+    #ds=pickle.load(df)
+    #print(ds)
+    #ds=pickle.load(df)
+    #print(ds)
+    

@@ -1,0 +1,4 @@
+a=open('pushpsraj','w')
+print('file created succesfully')
+
+

@@ -1,0 +1,5 @@
+a=float(input('enter number (a)='))
+square_root=a**(1/2)
+print('============================')
+print('square root of (a)=',square_root)
+print('============================')

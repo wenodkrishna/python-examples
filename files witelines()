@@ -1,0 +1,11 @@
+                                    #iterrable object
+l1={11,22,33,44,55,11,22,'vinod','krishna'}
+
+with open('xtommy','a') as wr:
+    #wr.writelines(str(l1))
+    wr.writelines(str(l1)+'\n')
+    print('data added succesfully')
+
+
+
+

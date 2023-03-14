@@ -1,0 +1,19 @@
+def lmaxmin():
+
+    l1=[]
+    a=int(input('enter how many numbers u want='))
+    for gf in range(1,a+1):
+        l1.append(int(input('enter a number=')))
+    print('list l1=',l1)
+    max=l1[0]
+    for h in range(1,len(l1)):
+        if l1[h]>max:
+            max=l1[h]
+    print('highest number in l1=',max)
+
+    min=l1[0]
+    for p in range(1,len(l1)):
+        if l1[p]<max:
+            min=l1[p]
+    print('least number in l1=',min)
+lmaxmin()

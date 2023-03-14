@@ -1,0 +1,9 @@
+# something wrong
+fname=input('enter source file=')
+with open(fname,'rt') as we:
+    
+    finame=input('enter des file name=')
+    with open(finame,'at') as sd:
+        rea=we.read()
+        sd.write(rea)
+        print('file copied successfully')

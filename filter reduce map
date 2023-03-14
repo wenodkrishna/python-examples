@@ -1,0 +1,25 @@
+import functools
+l1=[int(a) for a in input('enter numbers b/w 0 to 1000 with camma=').split(',')]
+
+print('='*50)
+
+print('l1=',l1)
+fill1=list(filter(lambda x:x<500,l1))
+updl1=list(map(lambda x:x*1.1,fill1))
+redl1=functools.reduce(lambda x,y:x+y,updl1)
+
+print('='*50)
+
+print('numbers lesthan 500=',fill1)
+print('number added 20% more=',updl1)
+print('number all 20% addeded =',redl1)
+
+print('+'*50)
+fill2=list(filter(lambda x:x>500,l1))
+updl2=list(map(lambda x:x*1.2,fill2))
+redl2=functools.reduce(lambda x,y:x+y,updl2)
+
+print('l1=',l1)
+print('numbers greater than 500=',fill2)
+print('number added 20% more=',updl2)
+print('number all 20% addede =',redl2)
